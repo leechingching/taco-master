@@ -6,7 +6,7 @@ I love taco :D and this is a web application for taco lovers who love exploring 
 
 one-Click! Click the 'Give me taco' button, then you will get your unique taco recipe! Don't forget to try it tonight
 
-### Credits
+## Credits
 
 [EDAMAM API](https://www.edamam.com/)
 [Create React App](https://github.com/facebook/create-react-app)
