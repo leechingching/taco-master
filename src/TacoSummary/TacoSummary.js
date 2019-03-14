@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import Spinner from '../Spinner/Spinner'
 
 const TacoSummary = props => {
 
@@ -34,11 +35,6 @@ const TacoSummary = props => {
             setUserClicked(false)
     }
 
-    let modal = null
-
-    if(loading) {
-        modal = (<p>It is Loading</p>)
-    }
 
 
     return (
@@ -46,7 +42,7 @@ const TacoSummary = props => {
             
             <h1>Create your Taco</h1>
             { userClick && !loading ? <p>Your Taco: {ingredient}<span></span></p> : null }
-            { loading && !userClick ? <p>It is Loading</p> : null }
+            { loading && !userClick ? <Spinner /> : null }
             
             {/* { modal }  */}
             <button onClick={() => randomRecipe()}>Generate Your Taco!</button>
