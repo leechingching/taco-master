@@ -10,4 +10,4 @@ one-Click! Click the 'Give me taco' button, then you will get your unique taco r
 
 [EDAMAM API](https://www.edamam.com/)
 [Create React App](https://github.com/facebook/create-react-app)
-[react-spinner](http://www.davidhu.io/react-spinners/)
+[react-spinner](https://github.com/davidhu2000/react-spinners)

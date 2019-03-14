@@ -1,13 +1,22 @@
 import React from 'react'
-import { BeatLoader } from 'react-spinners'
+import { PacmanLoader } from 'react-spinners'
+import { css } from '@emotion/core';
+import '../styles.scss';
+
+const override = css`
+    margin: auto 45vw;
+`;
 
 const Spinner = props => {
+
     return (
-        <div>
-          <BeatLoader
-            sizeUnit={"px"}
+        <div className="Spinner">
+          <PacmanLoader
+            css={override}
+            sizeUnit={'px'}
             size={50}
-            color={'#123abc'}
+            width={100}
+            color={'#F5A623'}
           />
         </div> 
       )
